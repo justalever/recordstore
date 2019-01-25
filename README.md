@@ -2,7 +2,7 @@
 
 # Ruby on Rails API with Vue.js
 
-_ An 8-part tutorial on how to build a Ruby on Rails API based app using Vue.js as the frontend_
+_An 8-part tutorial on how to build a Ruby on Rails API based app using Vue.js as the frontend_
 
 Did you know Ruby on Rails can be used as a strict API based backend application? What's the benefit to this? Think of it as a single source of truth for multiple _future_ applications to absorb and use this data directly. Anything from a native mobile application, to a front-end framework, can talk with this data. Many apps can essentially communicate with a "source of truth" in return which means more consistent applications for all.
 
