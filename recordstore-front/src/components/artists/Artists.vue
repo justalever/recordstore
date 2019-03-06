@@ -92,7 +92,7 @@ export default {
     },
     updateArtist (artist) {
       this.editedArtist = ''
-      this.$http.secured.patch(`/api/v1/artists/${artist.id}`, { artist: { title: artist.name } })
+      this.$http.secured.patch(`/api/v1/artists/${artist.id}`, { artist: { name: artist.name } })
         .catch(error => this.setError(error, 'Cannot update artist'))
     }
   }
